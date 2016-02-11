@@ -29,7 +29,7 @@ for this course.
 5. You are done -- you have submitted your assignment by having
 completed the previous step.
 
-** Good luck with your first assignment! **
+**Good luck with your first assignment!**
 
 ## `git` and GitHub
 
