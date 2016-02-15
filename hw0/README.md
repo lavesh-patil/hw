@@ -61,6 +61,17 @@ your account, you will receive an email message with a link to your
 personal GitHub repository for this course; this email will be sent to
 the email address associated with your GitHub account.
 
+## Configuring `git` to by-pass Wits proxy server
+
+Before you can fetch/pull repositories from or push repositories to
+GitHub from a local machine on Wits campus, you will have to set up
+`git` to by-pass the university proxy server.  To do that, execute the
+following command:
+
+git config --global https.proxy
+"http://students\student_number:password@proxyss.wits.ac.za:80"
+
+
 ## Submitting assignments in COMS4037
 
 All assignments will be submitted by pushing to your private
