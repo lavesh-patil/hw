@@ -71,7 +71,6 @@ following command:
 git config --global https.proxy
 "http://students\student_number:password@proxyss.wits.ac.za:80"
 
-
 ## Submitting assignments in COMS4037
 
 All assignments will be submitted by pushing to your private
