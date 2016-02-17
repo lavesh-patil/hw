@@ -144,7 +144,7 @@ description of each of the fields
 [here](https://httpd.apache.org/docs/1.3/logs.html#common).
 
 What we are doing in this assignment is usually referred to as
-[session reconstruction](https://en.wikipedia.org/wiki/Session_(web_analytics)#Session_reconstruction)**. A
+[session reconstruction](https://en.wikipedia.org/wiki/Session_(web_analytics)#Session_reconstruction). A
 web session represents a user's actions on a website in a consecutive
 chunk of time.  Session information is useful for tracking the path a
 user took through the site, as well as for collecting various metrics
@@ -170,14 +170,14 @@ Thus, `process_logs()` should produce 3 csv files:
     * `timestamp` is a
       [Unix timestamp](https://en.wikipedia.org/wiki/Unix_time), which
       reflects the number of seconds elapsed between 12 am on 1
-      January 1970 and the time the request was make;
+      January 1970 and the time the request was made;
     * each row corresponds to one row in the input log file, and the
       order of the rows matches the order of the log file entries.
 	  
 * `sessions.csv` has the header `ip,session_length,num_hits`, where
     * `ip` is an IP address associated with a session;
     * `session_length` is the length of a session measured in seconds
-      (bear in mind that our inactivity threshold is > 30 minutes;
+      (bear in mind that our inactivity threshold is 30 minutes;
       thus, a request made exactly 30 minutes after the previous one
       is considered to be part of the same session);
     * the order of the rows is immaterial.
@@ -197,11 +197,14 @@ Thus, `process_logs()` should produce 3 csv files:
 ## Testing
 
 The reference output is available on lab machines in the
-directory `coms4037/hw1/ref_output_small`.  You can make use of these files in two ways.
+directory `~/coms4037/hw1/ref_output_small`.  You can make use of these files in two ways.
 
 First, you can take a look at them to make sure you understand the format of the csv files your code is supposed to produce.
 
-Second, the hw1.ipynb file contains code that test the output produced by your code against the reference output -- you can run it to make sure that your code is correct (for more details, read the notes in the hw1.ipynb file).
+Second, the `hw1.ipynb` file contains code that tests the output
+produced by your code against the reference output -- you can run it
+to make sure that your code is correct (for more details, read the
+notes in the `hw1.ipynb` file).
 
 You need to make sure that your code will scale to datasets that are
 bigger than memory, regardless of how large or skewed the dataset is or how
@@ -226,7 +229,7 @@ manipulation -- it will make your life a lot easier.
   faster than anything you will write in Python; moreover, they are
   time-tested and thus free of bugs. This, if a sub-problem can be
   solved with a UNIX utility, we strongly recommend that you use it.
-  Notes in hw1.ipynb tell you how to access Unix utilities from
+  Notes in `hw1.ipynb` tell you how to access Unix utilities from
   IPython.
 
 * When using shell commands, rather than writing out intermediate
