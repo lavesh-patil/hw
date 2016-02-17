@@ -4,8 +4,9 @@
 ### Points: 10% of your final grade
 ### Due: Monday, 29 February, at 11:59 pm SAST
 
-**This assignment has been originally developed for UC Berkeley CS186
-   course; we use it for COMS4037 with their gracious permission**
+**This assignment has been originally developed for [UC Berkeley CS186
+   course](http://www.cs186berkeley.net/); we use it for COMS4037 with
+   their gracious permission**
 
 ## Introduction
 
@@ -59,11 +60,11 @@ Pull the latest changes from the `hw` repository. Having done that,
 you should have `hw1` directory in your repository, with the following
 files in it:
 
-1. hw1.ipynb
+1. `hw1.ipynb`
 
-2. apachetime.py
+2. `apachetime.py`
 
-3. test_memory_usage.sh
+3. `test_memory_usage.sh`
 
 To access the dataset you will be working with, log into your account
 on a lab machine, and go to the `~/coms4037/hw1` directory.
@@ -74,7 +75,7 @@ if you want to change the location of the dataset, make sure that you
 edit the code in hw1.ipynb accordingly.
 
 
-## Running Jupyter notebook
+## Running Jupyter Notebook
 
 *Note*: in the following instructions, 'Notebook' -- used
  interchangeably with 'Jupyter Notebook' -- refers to an application,
