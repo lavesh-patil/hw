@@ -117,11 +117,11 @@ former runs Python 2, while the latter by default runs Python 3. If
 you have anaconda3 installed on your personal computer, you can switch
 to using Python 2 by enabling the py2 environment; to do so, type
 
-   source activate py2
+    source activate py2
 
 at the shell prompt.  To switch back to Python 3, type
 
-   source deactivate
+    source deactivate
 
 at the shell prompt.
 
