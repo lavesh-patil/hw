@@ -68,6 +68,8 @@ files in it:
 
 To access the dataset you will be working with, log into your account
 on a lab machine, and go to the `~/coms4037/hw1` directory.
+Alternatively, you can download it from
+[here](http://www.cs.wits.ac.za/~dmitry/coms4037/files/hw1_DATA_DIR.zip).
 
 *Note*: Whether you are working on a lab machine or your personal
 computer, the dataset should reside in the `~/coms4037/hw1` directory;
