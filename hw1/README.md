@@ -183,6 +183,7 @@ Thus, `process_logs()` should produce 3 csv files:
       (bear in mind that our inactivity threshold is 30 minutes;
       thus, a request made exactly 30 minutes after the previous one
       is considered to be part of the same session);
+    * `num_hits` is the number of requests that occured during the session;
     * the order of the rows is immaterial.
 	
 * `session_length_plot.csv` is a file representing a histogram-style
