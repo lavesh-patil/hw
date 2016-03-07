@@ -2,7 +2,7 @@
 
 ### This is an individual assignment
 ### Points: 10% of your final grade
-### Due: Monday, 29 February, at 11:59 pm SAST
+### Due: Monday, 14 March, at 11:55 pm SAST
 
 **This assignment has been originally developed for [UC Berkeley CS186
    course](http://www.cs186berkeley.net/); we use it for COMS4037 with
