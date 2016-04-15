@@ -244,7 +244,7 @@ Additional Notes
 
 
 ## Submission instructions
-Follow the submission instructions in [HW0](https://github.com/berkeley-cs186/course/tree/master/hw0).
+Follow the submission instructions in [HW0](https://github.com/WITS-COMS4037/hw/tree/master/hw0).
 
 
 ##Resources/Tips
