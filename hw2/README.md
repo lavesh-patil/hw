@@ -248,7 +248,7 @@ Additional Notes
 Follow the submission instructions in [HW0](https://github.com/WITS-COMS4037/hw/tree/master/hw0).
 
 
-##Resources/Tips
+## Resources and advice
 SQL
 - *Tooling*: Some may find it easier to play around with the DB
 directly by entering SQLite via command line, such as `sqlite3
