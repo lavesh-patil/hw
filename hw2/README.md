@@ -232,6 +232,7 @@ create your own datasets to check your solution.
 
 Part1 will be worth 28% of HW2's grade, with each question worth 7% of
 the final grade.  There will be no partial credits for each problem.
+
 Part2 will be 72% of HW2's grade, with degrees of separation worth 40%
 and PageRank worth 32% of the final grade.
 
@@ -306,6 +307,8 @@ Misc
 - Should you have accidentally changed any original data, you could
 always get a "fresh" copy of the database by running the relevant
 cells in your Jupyter notebook.
+
+## Good luck!
 
 ---
 <a name="degree">1</a>: Caveat: since we are sampling the wikipedia graph we won't get an accurate answer (it turns out
