@@ -224,10 +224,11 @@ batch-style SQL queries---we hope that you will see this for yourself
 once you have done this assignmet.
 
 
-##Testing and Grading We have provided sample tests and sample test
-results for you to check your work. Use the `test.sh` scripts to run
-the tests.  You can also create your own datasets to check your
-solution.
+##Testing and Grading
+
+We have provided sample tests and sample test results for you to check
+your work. Use the `test.sh` scripts to run the tests.  You can also
+create your own datasets to check your solution.
 
 Part1 will be worth 28% of HW2's grade, with each question worth 7% of
 the final grade.  There will be no partial credits for each problem.
@@ -253,7 +254,7 @@ SQL
 directly by entering SQLite via command line, such as `sqlite3
 part1.db`. You may find
 [Command Line Shell For SQLite](https://www.sqlite.org/cli.html)
-handy.
+useful.
 - *SQL syntax*: You might want to look into
   [aliasing](http://www.postgresql.org/docs/9.2/static/sql-select.html#SQL-FROM)
   to eliminate ambiguity for self-joins.
@@ -267,7 +268,7 @@ handy.
   performance. [This page](https://www.sqlite.org/cvstrac/wiki?p=PerformanceTuning)
   contains some helpful tips for SQLite. You might find
   [EXPLAIN](https://www.sqlite.org/lang_explain.html) and
-  [ANALYZE](https://www.sqlite.org/lang_analyze.html) handy!
+  [ANALYZE](https://www.sqlite.org/lang_analyze.html) useful!
 - *Idiosyncratic*: SQL implementations are more or less the same but
   the details are different and hard to remember, Google/Stack
   Overflow is your friend. For example, SQLite
