@@ -17,7 +17,7 @@ function test_query() {
     pass=false
     echo -e "ERROR $test_name! See your_output/$test_name.csv"
   else
-      diff your_output/$test_name.csv ~cs186/sp16/hw2/part1/expected_output/$test_name.csv > diffs/$test_name.csv
+      diff your_output/$test_name.csv ~/coms4037/hw/hw2/part1/expected_output/$test_name.csv > diffs/$test_name.csv
       if [ $? -ne 0 ]
       then
     pass=false
