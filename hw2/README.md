@@ -227,8 +227,12 @@ once you have done this assignmet.
 ##Testing and Grading
 
 We have provided sample tests and sample test results for you to check
-your work. Use the `test.sh` scripts to run the tests.  You can also
-create your own datasets to check your solution.
+your work. Use the `test.sh` scripts to run the tests.  The tests
+assume that the `csv` files with the expected output are stored in a
+particular location -- either check the scripts to see what those
+locations are (subdirectories of `~/coms4037/hw/hw2/`) or change the
+scripts to reflect where you put those files.  You can also create
+your own datasets to check your solution.
 
 Part1 will be worth 28% of HW2's grade, with each question worth 7% of
 the final grade.  There will be no partial credits for each problem.
